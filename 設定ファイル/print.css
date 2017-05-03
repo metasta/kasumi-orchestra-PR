@@ -1,0 +1,154 @@
+/*
+ 用紙サイズや広告の配置など、パンフレットのデザインに関係しない部分のcss。
+ 通常このファイルを編集する必要はない。
+*/
+
+@page {
+ size: A4;
+ margin: 32mm 0; /* { A4縦(297) - B5縦(257) }/2 + 12 = 32mm */
+}
+@media print {
+ body {
+		/* Chrome でA4 PDF出力したとき
+		   仕上がり領域がちょうど中央に来るよう
+		   調整してあるので、触らない */
+  width: 205.5mm;
+ }
+ section {
+  page-break-before: always;
+  page-break-after: always;
+ }
+ blockquote {
+  page-break-before: avoid;
+ }
+ b {
+  page-break-before: avoid;
+ }
+ img, .nobreak {
+  page-break-inside: avoid;
+ }
+ hr {
+  visibility: hidden;
+  margin: 0;
+  page-break-after: always;
+ }
+ .B5 {
+  border-left : 1px solid rgba(0,0,0,0);
+  border-right: 1px solid rgba(0,0,0,0);
+ }
+ .instruction {
+  display: none;
+ }
+}
+@media screen {
+ body {
+  background-color: #eee;
+ }
+ section {
+  background: white;
+  box-shadow: 0 0 5mm rgba(0,0,0,.3);
+  margin: 5mm auto;
+ }
+ hr {
+  visibility: visible;
+  margin: 12mm 0;
+  border:0;
+  border-bottom: 1px dashed #ccc;
+ }
+ .B5 {
+  border-left : 1px solid rgba(0,255,255,.5);
+  border-right: 1px solid rgba(0,255,255,.5);
+ }
+ .instruction_print {
+  display: none;
+ }
+}
+section {
+ /* Chrome でA4 PDF出力したとき
+	  仕上がり領域がちょうど中央に来るよう
+	  調整してあるので、触らない */
+ width: 205.5mm;
+ box-sizing: border-box;
+}
+.pdf {
+ /* B5(182mm) + 塗り足し 3mm x2 + 余裕 1mm */
+ width: 189mm;
+ box-sizing: border-box;
+ border-left : 1px solid black;
+ border-right: 1px solid black;
+ margin: 0 auto;
+}
+.B5 {
+ /* B5幅 */
+ width: 182mm;
+ box-sizing: border-box;
+ margin: 0 auto;
+}
+.instruction {
+ font-family: "Hiragino Maru Gothic ProN W4";
+}
+.instruction ol {
+ display: table;
+ margin: 0 auto;
+ line-height: 2;
+}
+.instruction_print {
+ font-family: "Hiragino Sans";
+ font-weight: 200;
+ font-size: 160%;
+}
+.instruction_print ol {
+ display: table;
+ margin: auto;
+}
+.instruction_print h1 {
+ border: none;
+ width: 100%;
+ padding-top: 50mm;
+ font-size: 48pt;
+}
+article {
+ /* 広告を除くコンテンツの描画範囲 */
+ /* B5(182mm) - 左右17.25mm x2 */
+ width: 147.5mm;
+ margin: 0 auto;
+}
+aside {
+ /* B5横 (182mm) - 6mm x2 */
+ width: 170mm;
+ margin: 0 auto;
+ line-height: 0;
+}
+aside img {
+ box-sizing: border-box;
+ border: 1px solid black;
+ margin: 0;
+}
+aside img.whole {
+ /* B5横(182mm) - 6mm x2 = 170mm */
+ width: 170mm;
+ /* B5縦(257mm) - (余白12 + 余裕3)mm x 2 = 227mm */
+ height: 227mm;
+ /* 余裕 3mm */
+ margin-top: 3mm;
+}
+aside img.fourth {
+ /* .whole と同じ */
+ width: 170mm;
+ /* { .whole(227mm) - 2mm x3 } / 4 = 55.25mm */
+ height: 55.25mm;
+ margin-top: 2mm;
+}
+hr + img.fourth {
+ margin-top: 3mm;
+}
+aside img.eighth {
+ /* { .fourth(170mm) - 2mm } / 2 = 84mm */
+ width: 84mm;
+ /* .fourth と同じ */
+ height: 55.25mm;
+ margin-top: 2mm;
+}
+aside img.eighth:nth-of-type(2n) {
+ margin-left: 2mm;
+}

@@ -1,0 +1,192 @@
+/*
+ パンフレットのデザイン（文字の大きさ、フォント、位置、間隔など）を
+ 変更するとき、このファイルを編集する。
+*/
+
+
+/*
+ 文章全体のフォント、行間
+ */
+article {
+ font-family: "Hiragino Sans";
+ font-weight: 200;
+ font-size: 9pt;
+ line-height: 1.6;
+ text-align: justify;
+}
+
+
+/*
+ 見出し(h1) ※「あいさつ」「指揮者」「プログラム」など
+*/
+h1 {
+ position: relative;
+ width: 73mm;
+ line-height: 12mm;
+
+ /* 見出しの上には12mm、下には 16mm の余白をつける */
+ margin: 12mm 0 16mm;
+ padding-left: 2mm;
+
+ box-sizing: border-box;
+ border-bottom: 1px solid black;
+ border-left: 3mm solid black;
+ font-weight: 100;
+ font-size: 24pt;
+}
+/* ページの上端にある見出しの上には余白をつけない */
+h1:first-child, hr + h1 {
+ margin-top: 0;
+}
+/* 見出し英語表記(h1 i) */
+h1 i {
+ display: inline-block;
+ position: absolute;
+ font-size: 13pt;
+ font-style: normal;
+ left: 2mm;
+ top: 11mm;
+}
+/* 中見出し(h2) */
+h2 {
+ margin: 10mm 0 3mm;
+ border-bottom: 1px solid black;
+ font-weight: 200;
+ font-size: 17pt;
+}
+h2 small {
+ display: inline-block;
+ font-size: 11pt;
+ line-height: 1.5;
+}
+/* 作曲者名(b) */
+b {
+ display: block;
+ font-weight: 200;
+ font-size: 11pt;
+ text-align: right;
+ position: relative;
+ top: -2mm; right: 5mm;
+ margin-bottom: 3mm;
+}
+h2 rt {
+ font-weight: 200;
+ font-size: 7pt;
+}
+h3 {
+ margin: 1.5em 0 2mm;
+ font-weight: 200;
+ font-size:10pt;
+}
+
+
+
+/*
+ 指揮者写真(.portrait)
+ */
+img.portrait {
+ width: 59mm;
+ display: block;
+ margin: 0 auto;
+}
+
+
+
+/*
+ プログラム(.program)
+*/
+ul.program {
+ display: table;
+ margin: 0 auto;
+ padding: 1mm;
+ list-style-type: none;
+ font-size: 10pt;
+ white-space: nowrap;
+}
+ul.program>li {
+ margin: 5mm 0;
+}
+ul.program i {
+ display: block;
+ line-height: 1.1;
+ font-style: normal;
+ font-size: 8pt;
+}
+ul.program cite {
+ font-style: normal;
+ font-size: 17pt;
+}
+ul.program cite ol,
+ul.program cite ul {
+ margin: 3mm 0 0;
+ font-size: 8pt;
+}
+ul.program cite small {
+ font-size: 10pt;
+}
+ul.program cite i {
+ font-size: 9pt;
+}
+ul.program li.sep {
+ text-align: center;
+}
+ul.program li.sep:after {
+ content: "◆　◆　◆";
+}
+
+blockquote {
+ white-space: pre-wrap;
+ margin: -1.6em 0;
+}
+
+/*
+ 幹部紹介・出演者
+ */
+dl {
+ margin: 0;
+}
+dl + dl {
+ margin-left: 5em;
+}
+dt {
+ font-weight: 400;
+ margin-top: 1em;
+}
+dt:first-child {
+ margin-top: 0;
+}
+dd {
+ margin-left: 1em;
+}
+
+/* 幹部紹介(.officers) */
+.officers {
+ display: flex;
+ justify-content: space-around;
+}
+.officers h2 {
+ margin-top: 0;
+ width: 45mm;
+}
+/* 運営部(.management) */
+.management .members {
+ display: flex;
+}
+/* 出演者(.performers) */
+dl.performers {
+ columns: 4;
+}
+
+/* コンマス・コンミス・パートリーダーのマーク */
+dd.concert-master, dd.concert-mistress, dd.part-leader {
+ margin-left: 0;
+}
+dd.concert-master:before {
+ content: "◆";
+}
+dd.concert-mistress:before {
+ content: "◇";
+}
+dd.part-leader:before {
+ content: "○";
+}
