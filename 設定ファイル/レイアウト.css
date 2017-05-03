@@ -1,0 +1,98 @@
+/*
+ 表紙デザイン（字の大きさ、フォント、位置…）を修正する際、
+ このファイルを編集する。
+ */
+
+
+/* デフォルト値変更 */
+h1 { margin: 0; font-weight: inherit; } hr { border: 0; }
+
+
+
+/*
+ 全体のフォント
+ */
+html {
+	font-family: "HelveticaNeue-UltraLight","HiraginoSans-W0";
+}
+
+
+
+/*
+ グレーの背景
+ */
+.gray_background {
+
+ /* B5 (182x257mm) - 上下左右 12mm */
+ width : 158mm; height: 233mm;
+
+ /* グレーの明るさ */
+	background-color: #e4e4e4;
+
+ /* 上下左右中央に配置 */
+	position:absolute;left:0;top:0;right:0;bottom:0;margin:auto;
+}
+/* 手前から「文字 > グレーの背景 > 紙」の順に重なるよう配置 */
+section { z-index: -1000; } .gray_background { z-index: -1;}
+
+
+
+/*
+ 表紙
+ */
+/* タイトル(h1), 線(hr), 日時・指揮者・演者(p) の左を 40mm 空ける */
+h1, hr, p {
+	margin-left: 40mm;
+}
+
+/* タイトル(h1) */
+h1 {
+ /* 上端からの距離で位置指定 */
+ padding-top: 90mm;
+
+ /* 字の大きさ */
+	font-size: 30pt;
+}
+
+/* 線(hr) */
+hr {
+ /* 太さと色 */
+	border-top: 3mm solid black;
+
+	/* 右端をA4の紙いっぱいまで伸ばさない */
+	margin-right: 5mm;
+}
+
+/* 日時・指揮者・演者(p) */
+p {
+	/* 字の大きさ */
+	font-size: 14pt;
+}
+
+
+
+/*
+ 裏表紙
+ */
+/* 霞オケのロゴ(.logo) */
+.logo {
+	/* ロゴの横幅 */
+ width: 30mm;
+
+ /* 上下左右中央に配置 */
+	position:absolute;left:0;top:0;right:0;bottom:0;margin:auto;
+
+ /* 左右位置の微調整 */
+ padding-right: 2%;
+}
+
+/* 主催・後援(dl) */
+dl {
+	/* 左下からの距離で位置指定 */
+	position: absolute; left: 37mm; bottom: 40mm;
+
+ /* 字の大きさ */
+	font-size: 8pt;
+}
+/* dt と dd を横並びに */
+dl { line-height: 1.5em; } dd { margin-left: 3em; } dt + dd { margin-top: -1.5em; }

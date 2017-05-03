@@ -1,0 +1,93 @@
+/*
+ 用紙サイズなど、パンフ表紙のデザインの関係しない部分のcss。
+ 通常このファイルを編集する必要はない。
+*/
+
+@page {
+	size: A4;
+	margin: 0;
+}
+@media print {
+	body {
+		/* Chrome でA4 PDF出力したとき
+		   仕上がり領域がちょうど中央に来るよう
+		   調整してあるので、触らない */
+		width : 205.5mm;
+	}
+	section {
+		page-break-before: always;
+	}
+	.B5 {
+		visibility: hidden;
+	}
+	.instruction {
+		visibility: hidden;
+	}
+	.instruction_print {
+		margin: 0 auto;
+		font-size: 400%;
+	}
+	.instruction_print h1 {
+		padding-top: 40mm;
+		font-size: 40pt;
+	}
+	.instruction_print p {
+		font-size: 20pt;
+	}
+}
+@media screen {
+	body {
+		background-color: #eee;
+	}
+	section {
+		background-color: white;
+		box-shadow: 0 0 5mm rgba(0,0,0,.3);
+		margin: 5mm auto;
+	}
+	.instruction_print {
+		display: none;
+	}
+}
+section {
+	/* Chrome でA4 PDF出力したとき
+	   仕上がり領域がちょうど中央に来るよう
+	   調整してあるので、触らない */
+	width: 205.5mm;	height: 297mm;
+	box-sizing: border-box;
+	position:relative;
+}
+
+.pdf {
+ /* B5 + （塗り足し 3mm ＋ 余裕 0.5mm = 3.5mm） x2 */
+	width: 189mm; height: 264mm;
+
+ /* 上下左右中央揃え */
+	position:absolute;left:0;top:0;right:0;bottom:0;margin:auto;
+
+ /* 黒い輪郭線 */
+	border: 1px solid black;
+}
+.B5 {
+ /* B5 */
+	width: 182mm; height: 257mm;
+
+ /* 上下左右中央揃え */
+	position:absolute;left:0;top:0;right:0;bottom:0;margin:auto;
+
+ /* 水色のガイド線 */
+	box-sizing: border-box;
+	border: 1px solid rgba(0,255,255,.5);
+	border-collapse: collapse;
+}
+.B5 td {
+	border: 1px solid rgba(0,255,255,.5);
+}
+.instruction {
+	margin: 2em auto;
+ font-family: "HiraMaruProN-W4";
+}
+.instruction ol {
+	display: table;
+	margin: 0 auto;
+ line-height: 2;
+}
