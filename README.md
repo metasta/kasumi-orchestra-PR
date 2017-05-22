@@ -3,7 +3,7 @@
 
 ## 導入
 - [チラシ・パンフ自作入門.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E3%83%81%E3%83%A9%E3%82%B7%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%B3%E3%83%95%E8%87%AA%E4%BD%9C%E5%85%A5%E9%96%80.pdf)    
-ツールの概要や、必要な作業環境についての説明
+ツールの概要や作業環境の準備についての説明
 
 ## チラシ
 
@@ -19,9 +19,9 @@
 
 ## その他
 
-### その他 1. パンフレット用協賛広告
+### パンフレット用協賛広告
 - [広告作成用Keynoteデータ（Google Drive）](https://drive.google.com/open?id=0B7_ldbzvJDqCakFidC0wMGxPV3M)
 - [広告画像はPowerPointで作れ.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E5%BA%83%E5%91%8A%E7%94%BB%E5%83%8F%E3%81%AFPowerPoint%E3%81%A6%E3%82%99%E4%BD%9C%E3%82%8C.pdf)
 
-### その他 2. htmlについて
+### html入門
 - [（おまけ）やっつけhtml入門.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E3%82%84%E3%81%A3%E3%81%A4%E3%81%91html%E5%85%A5%E9%96%80.pdf)
