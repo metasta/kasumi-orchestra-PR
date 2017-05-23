@@ -10,14 +10,6 @@
 
 ツールの概要や必要な準備について書いてある。
 
-### 補足
-
-このツールではチラシやパンフレットを作成するために、html ファイル（例：[チラシ.html](https://github.com/metasta/kasumi-orchestra-PR/blob/flyer/%E3%83%81%E3%83%A9%E3%82%B7.html)）を編集する。  
-「何が何だか分からない」「こわくて触れない」という人に簡単な補足資料を用意した。  
-いろいろ気軽に試してhtmlに慣れてほしい。
-
-- 補足資料：[（おまけ）やっつけhtml入門.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E3%82%84%E3%81%A3%E3%81%A4%E3%81%91html%E5%85%A5%E9%96%80.pdf)
-
 ## チラシ
 
 チラシ作成ツールをダウンロードする。
@@ -55,6 +47,16 @@
 
 - [広告作成用Keynoteデータ（Google Drive）](https://drive.google.com/open?id=0B7_ldbzvJDqCakFidC0wMGxPV3M)
 - [広告画像はPowerPointで作れ.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E5%BA%83%E5%91%8A%E7%94%BB%E5%83%8F%E3%81%AFPowerPoint%E3%81%A6%E3%82%99%E4%BD%9C%E3%82%8C.pdf)
+
+
+## おまけ
+
+このツールではチラシやパンフレットを作成するために、html ファイル（例：[チラシ.html](https://github.com/metasta/kasumi-orchestra-PR/blob/flyer/%E3%83%81%E3%83%A9%E3%82%B7.html)）を編集する。  
+「何が何だか分からない」「こわくて触れない」という人に簡単な資料を用意した。  
+いろいろ気軽に試してみてhtmlに慣れてほしい。
+
+- 資料：[（おまけ）やっつけhtml入門.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E3%82%84%E3%81%A3%E3%81%A4%E3%81%91html%E5%85%A5%E9%96%80.pdf)
+
 
 ## 連絡先
 
