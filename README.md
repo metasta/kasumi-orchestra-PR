@@ -13,7 +13,7 @@
 ### 補足
 
 このツールではチラシやパンフレットを作成するために、html ファイル（例：[チラシ.html](https://github.com/metasta/kasumi-orchestra-PR/blob/flyer/%E3%83%81%E3%83%A9%E3%82%B7.html)）を編集する。  
-「何が何だか分からない」「こわくて触れない」という人に簡単な補足資料を用意した。 
+「何が何だか分からない」「こわくて触れない」という人に簡単な補足資料を用意した。  
 いろいろ気軽に試してhtmlに慣れてほしい。
 
 - 補足資料：[（おまけ）やっつけhtml入門.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E3%82%84%E3%81%A3%E3%81%A4%E3%81%91html%E5%85%A5%E9%96%80.pdf)
@@ -50,10 +50,8 @@
 
 画像データは広報の OneDrive に置いてある。
 
-毎年いくつかの広告画像は修正が必要になる（新規協賛、住所変更、代表者交代など）。  
-手際よく修正作業を行うために、  
-画像編集ソフトで広告画像データそのものを編集するのではなく、  
-プレゼンソフトを用いた編集を強くおすすめする。
+毎年いくつかの広告画像は修正が必要になる（新規協賛、住所変更、代表者交代など）。手際よく修正作業を行うために、  
+画像編集ソフトで広告画像データそのものを編集するのではなく、プレゼンソフトを用いた編集を強くおすすめする。
 
 - [広告作成用Keynoteデータ（Google Drive）](https://drive.google.com/open?id=0B7_ldbzvJDqCakFidC0wMGxPV3M)
 - [広告画像はPowerPointで作れ.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E5%BA%83%E5%91%8A%E7%94%BB%E5%83%8F%E3%81%AFPowerPoint%E3%81%A6%E3%82%99%E4%BD%9C%E3%82%8C.pdf)
