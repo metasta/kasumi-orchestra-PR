@@ -62,7 +62,7 @@ function paper() {
  a3paper.appendChild(guide);
 
  var instruction = document.createElement("div");
- instruction.innerHTML = "<ol><li>このファイル（「チラシ.html」）を編集する<li>『Safari』でレイアウトをチェックする<li>印刷プレビュー（⌘P）を開く<li>A3サイズのPDFとして保存する</ol>";
+ instruction.innerHTML = "<ol><li>このファイル（「チラシ.html」）を編集する<li>『Safari』でレイアウトをチェックする<li>印刷プレビュー（⌘P）を開く<li>A3サイズのPDFとして保存する<br>（A3は台紙のサイズ。チラシの仕上がりサイズはA4になる）</ol>";
  instruction.className = "instruction";
 
  newbody.appendChild(instruction);
