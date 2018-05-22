@@ -8,9 +8,6 @@
  margin: 0;
 }
 @media print {
- body {
-  width: 297mm; /* for Chrome */
- }
  .guide {
   visibility: hidden;
  }
@@ -44,10 +41,19 @@ body {
  margin: 0;
 }
 .a3paper {
- width: 297mm; height: 413mm; /* A3 (297x420mm) */
- /* 高さをちょうど 420mm にするとPDF出力時「A3用紙に入り切らない」と
-    判定されるので、少し小さめにしている */
+ box-sizing: border-box;
+ width: 297mm; height: 420mm; /* A3 (297x420mm) */
  position: relative;
+}
+@media print {
+ .a3paper {
+  width: 284mm; height: 395mm; /* A3 (297x420mm) - α */
+  /* 本来ここで設定した width は印刷時（PDF出力時）の余白にのみ影響し、
+   チラシの縮尺には影響しないはずと考えられるのだが、
+   実際の挙動を観察するとこの width によってPDF化した際のチラシの縮尺が変動する。
+   そのため試行錯誤の末 284mm という数字を採用している。 */
+  margin: 0; border:0; padding: 0;
+ }
 }
 article.a4area {
  box-sizing:border-box;
