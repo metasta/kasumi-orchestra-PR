@@ -63,9 +63,6 @@ section {
 
  /* 上下左右中央揃え */
 	position:absolute;left:0;top:0;right:0;bottom:0;margin:auto;
-
- /* 黒い輪郭線 */
-	border: 1px solid black;
 }
 .B5 {
  /* B5 */
