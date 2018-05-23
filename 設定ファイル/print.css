@@ -74,8 +74,6 @@ section {
  /* B5(182mm) + 塗り足し 3mm x2 + 余裕 1mm */
  width: 189mm;
  box-sizing: border-box;
- border-left : 1px solid black;
- border-right: 1px solid black;
  margin: 0 auto;
 }
 .B5 {
