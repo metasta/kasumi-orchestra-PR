@@ -1,6 +1,6 @@
 # kasumi-orchestra-PR
 
-霞オケ春定演チラシ・パンフ製作ツール
+霞オケチラシ・パンフ製作ツール
 
 ## 導入
 
@@ -20,9 +20,7 @@
 
 - 解説：[チラシデータ作成手順.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E3%83%81%E3%83%A9%E3%82%B7%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E4%BD%9C%E6%88%90%E6%89%8B%E9%A0%86.pdf)
 
-テーマ機能を使う場合は追加の背景画像が必要になるので、以下からダウンロードして「画像」フォルダに追加する。
-
-- 背景画像：[追加背景画像（Google Drive）](https://drive.google.com/drive/folders/0B7_ldbzvJDqCV3VSMVotTnNJcXM)
+テーマ機能を使う場合は追加の背景画像が必要になるので、広報の OneDrive （「チラシ用追加背景画像」）からダウンロードして「画像」フォルダに追加する。
 
 ## パンフレット
 
@@ -40,12 +38,12 @@
 
 パンフレットに掲載する協賛広告画像について。
 
-画像データは広報の OneDrive に置いてある。
+画像作成・修正に使った Keynote データと画像データは広報の OneDrive に置いてある。
 
-毎年いくつかの広告画像は修正が必要になる（新規協賛、住所変更、代表者交代など）。手際よく修正作業を行うために、  
-画像編集ソフトで広告画像データそのものを編集するのではなく、プレゼンソフトを用いた編集を強くおすすめする。
+毎年いくつかの広告画像は修正が必要になる（新規協賛、住所変更、代表者交代など）。  
+手際よく・見栄えよく修正作業を行うために PowerPoint や Keynote などのプレゼンソフトがとても便利なのでおすすめ。 \\
+画像データを直接画像編集ソフトで編集するより絶対良い。
 
-- [広告作成用Keynoteデータ（Google Drive）](https://drive.google.com/open?id=0B7_ldbzvJDqCakFidC0wMGxPV3M)
 - [広告画像はPowerPointで作れ.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E5%BA%83%E5%91%8A%E7%94%BB%E5%83%8F%E3%81%AFPowerPoint%E3%81%A6%E3%82%99%E4%BD%9C%E3%82%8C.pdf)
 
 
@@ -60,6 +58,7 @@
 
 ## 連絡先
 
-不具合などの報告は松本（医・25Vc）まで。
+松本 洋一郎（医学・25Vc）
 
-もしくは（同じことだけど）[こちら](https://github.com/metasta/kasumi-orchestra-PR/issues/new)まで。
+不具合などあれば個人的に連絡してもらうか、 [こちら](https://github.com/metasta/kasumi-orchestra-PR/issues/new) に報告をください。  
+画面は英語ですが日本語で入力してもらって大丈夫です。
