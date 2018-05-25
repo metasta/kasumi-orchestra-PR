@@ -34,18 +34,19 @@
 
 - 解説：[パンフレットデータ作成手順.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E3%83%8F%E3%82%9A%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E4%BD%9C%E6%88%90%E6%89%8B%E9%A0%86.pdf)
 
-### 補足
-
-パンフレットに掲載する協賛広告画像について。
+### 補足1 広告画像について
 
 画像作成・修正に使った Keynote データと画像データは広報の OneDrive に置いてある。
 
 毎年いくつかの広告画像は修正が必要になる（新規協賛、住所変更、代表者交代など）。  
-手際よく・見栄えよく修正作業を行うために PowerPoint や Keynote などのプレゼンソフトがとても便利なのでおすすめ。 \\
+手際よく・見栄えよく修正作業を行うために PowerPoint や Keynote などのプレゼンソフトがとても便利なのでおすすめ。  
 画像データを直接画像編集ソフトで編集するより絶対良い。
 
 - [広告画像はPowerPointで作れ.pdf](https://github.com/metasta/kasumi-orchestra-PR/raw/release/PDF/%E5%BA%83%E5%91%8A%E7%94%BB%E5%83%8F%E3%81%AFPowerPoint%E3%81%A6%E3%82%99%E4%BD%9C%E3%82%8C.pdf)
 
+### 補足2 パンフレットのトンボについて
+
+必要なアプリを広報の OneDrive に置いてある。
 
 ## おまけ
 
@@ -58,7 +59,7 @@
 
 ## 連絡先
 
-松本 洋一郎（医学・25Vc）
+松本 洋一郎（医・25Vc）
 
 不具合などあれば個人的に連絡してもらうか、 [こちら](https://github.com/metasta/kasumi-orchestra-PR/issues/new) に報告をください。  
 画面は英語ですが日本語で入力してもらって大丈夫です。
